@@ -3,6 +3,7 @@ font-family: "Roboto", arial;
 margin: 0;
 padding: 0;
 background-color: #1f2937;
+box-sizing: border-box;
 }
 
 a{
@@ -107,4 +108,27 @@ justify-content: center;
 .sndheader{
     display: flex;
     justify-content: center;
+    color: #1f2937;
+    align-content: center;
+    margin-bottom: 10px;
+}
+
+img{
+    height: 140px;
+    width: 140px;
+    border: 5px solid blue;
+    border-radius: 10px;
+}
+
+.info{
+    flex-wrap: wrap;
+    max-width: 150px;
+}
+
+.underimg{
+    color: grey;
+}
+
+.second{
+    padding: 20px;
 }
